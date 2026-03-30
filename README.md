@@ -1,16 +1,27 @@
-# React + Vite
+Task Manager Dashboard App
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple productivity web application designed to help users organize tasks, track progress, and stay focused. It addresses the problem of losing track of tasks and not knowing what to work on next.
 
-Currently, two official plugins are available:
+Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+To provide a clear dashboard that helps users understand their workload and identify tasks that need immediate attention.
 
-## React Compiler
+Features
+User registration and login
+Personal workspace with user-specific tasks
+Create tasks with details such as title and priority
+View, complete, and track overdue tasks
+Dashboard showing total, completed, and pending tasks
+Notifications for due and overdue tasks
+Filter and sort tasks by status and priority
+Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React (Vite), CSS, Git
 
-## Expanding the ESLint configuration
+Getting Started
+npm install
+npm run dev
+Author
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ednah Kimani
